@@ -9,10 +9,10 @@ module.exports = {
         'tmp/html',
         'tmp/html/src',
         'tmp/html/dist',
-        'tmp/js',
-        'dist/',
-        'dist/css',
-        'dist/js'
+        'tmp/css',
+        'tmp/css/src',
+        'tmp/css/dist',
+        'dist/'
       ]
     }
   }

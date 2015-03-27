@@ -22,5 +22,18 @@ module.exports = {
       src: 'tmp/html/dist/*.html',
       dest: 'dist'
     }
+  },
+
+  cssVendorsToTmp: {
+    options: {
+      src: 'app/css/vendors/*.css',
+      dest: 'tmp/css/src'
+    }
+  },
+  cssTmpToDist: {
+    options: {
+      src: 'tmp/css/dist/main.css',
+      dest: 'dist'
+    }
   }
 };

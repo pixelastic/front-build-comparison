@@ -1,3 +1,9 @@
+$color-one:#004860;
+$color-two:#3090A8;
+$color-three:#003048;
+$color-active:#90A8C0;
+
+
 body {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -5,7 +11,7 @@ body {
 
 /* Navbar */
 .navbar-inverse {
-  background-color:#003048;
+  background-color:$color-three;
 }
 .navbar-inverse .navbar-brand {
   color:#FFF;
@@ -13,11 +19,11 @@ body {
 
 /* Buttons */
 .btn-primary {
-  background-color:#004860;
-  border-color:#3090a8;
+  background-color:$color-one;
+  border-color:$color-two;
 }
 .btn-primary:hover, .btn-primary:focus {
-  background-color:#90a8c0;
+  background-color:$color-active;
 }
 
 /* Presentation */
@@ -36,9 +42,9 @@ body {
 
 /* Features */
 .features {
-  border-top:10px solid #3090a8;
-  color:#003048;
-  background: linear-gradient( to bottom, #3090a8, #FFF);
+  border-top:10px solid $color-two;
+  color:$color-three;
+  background: linear-gradient( to bottom, $color-two, #FFF);
 }
 .features .feature-highlight .feature-title {
   font-weight:bold;
