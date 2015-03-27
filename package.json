@@ -1,0 +1,18 @@
+{
+  "name": "front-build-comparison-grunt",
+  "version": "0.0.0",
+  "description": "Comparison of Grunt against other front-end build tools.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pixelastic/front-build-comparison"
+  },
+  "keywords": [ ],
+  "author": "Tim \"pixelastic\" Carry <tim@pixelastic.com> (http://www.pixelastic.com/)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/pixelastic/front-build-comparison/issues"
+  }
+}
