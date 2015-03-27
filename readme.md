@@ -23,6 +23,11 @@ The build tool should provide the following tasks
 - Javascript linting and testing
 - Development server, with livereload
 
+# Issues
+
+- Had to downgrade to `grunt-contrib-cssmin` v0.11.0 because current v0.12.2
+  produces empty files. [Issue #191](https://github.com/gruntjs/grunt-contrib-cssmin/issues/191)
+
 # Photos
 
 - [Cole Patrick](https://unsplash.com/photos/hpCHLFknc2s/) via

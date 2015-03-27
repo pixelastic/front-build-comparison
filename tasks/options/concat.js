@@ -9,5 +9,12 @@ module.exports = {
       'tmp/css/src/style.css'
     ],
     dest: 'tmp/css/dist/main.css'
+  },
+  jsBuild: {
+    src: [
+      'tmp/js/src/jquery.min.js',
+      'tmp/js/src/*.js'
+    ],
+    dest: 'tmp/js/dist/main.js'
   }
 };

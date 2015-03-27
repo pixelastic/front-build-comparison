@@ -12,6 +12,9 @@ module.exports = {
         'tmp/css',
         'tmp/css/src',
         'tmp/css/dist',
+        'tmp/js',
+        'tmp/js/src',
+        'tmp/js/dist',
         'dist/'
       ]
     }
