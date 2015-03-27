@@ -1,0 +1,51 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* Navbar */
+.navbar-inverse {
+  background-color:#003048;
+}
+.navbar-inverse .navbar-brand {
+  color:#FFF;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color:#004860;
+  border-color:#3090a8;
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color:#90a8c0;
+}
+
+/* Presentation */
+.presentation {
+  background:url('../img/background.jpg') center center no-repeat;
+  color:#FFF;
+  padding:100px 0;
+  margin-bottom:0;
+}
+.presentation .presentation-title {
+  text-align:center;
+}
+.presentation .presentation-cta {
+  text-align:center;
+}
+
+/* Features */
+.features {
+  border-top:10px solid #3090a8;
+  color:#003048;
+  background: linear-gradient( to bottom, #3090a8, #FFF);
+}
+.features .feature-highlight .feature-title {
+  font-weight:bold;
+  text-decoration:underline;
+}
+
+/* Footer */
+footer {
+  text-align:center;
+}

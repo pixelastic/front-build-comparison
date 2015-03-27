@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Front-end build tool comparison">
+  <meta name="author" content="@pixelastic">
+  <link rel="icon" href="./favicon.ico">
+
+  <title>Front-end build tool comparison : base</title>
+
+  <link href="./css/vendors/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Base</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" placeholder="Email" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Password" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#modal">Sign in</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron presentation">
+    <div class="container">
+      <h1 class="presentation-title">The ultimate front-end build tool</h1>
+      <p>Build your website in seconds using our wonderful build tool. Compress CSS, JavaScript, HTML and images.</p>
+      <p class="presentation-cta"><a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#modal">Learn more &raquo;</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="jumbotron features">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 feature">
+          <h2 class="feature-title">CSS</h2>
+          <p>Build a design with real style, including state-of-the art features that will blow your mind:</p>
+          <ul>
+            <li>Pre-process SCSS to CSS</li>
+            <li>Autoprefix your CSS</li>
+            <li>Concatenate and minify the result</li>
+          </ul>
+          <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#modal">View details &raquo;</a>
+          </p>
+        </div>
+        <div class="col-md-4 feature">
+          <h2 class="feature-title">JavaScript</h2>
+          <p>Unleash the full power of JavaScript with our revolutionary new technology:</p>
+          <ul>
+            <li>Minify your JavaScript into one huge file</li>
+            <li>Check your code for mistakes</li>
+            <li>Include all the third-party libraries you want</li>
+          </ul>
+          <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#modal">View details &raquo;</a>
+          </p>
+        </div>
+        <div class="col-md-4 feature">
+          <h2 class="feature-title">HTML</h2>
+          <p>You know what the <strong>H</strong> in HTML stands for ? <strong>Hyper</strong>. Let's make our markup hyper-awesome again:</p>
+          <ul>
+            <li>Remove cruft from your markup</li>
+            <li>HTML7 ready</li>
+            <li>Compatible with table-based layouts</li>
+          </ul>
+          <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#modal">View details &raquo;</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <footer>
+    <p>Made with ❤ by <a href="https://twitter.com/pixelastic/">@pixelastic</a>
+    </p>
+  </footer>
+
+  <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Coming soon</h4>
+        </div>
+        <div class="modal-body">
+          Don't worry, we're working on this feature.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/vendors/jquery.min.js"></script>
+  <script src="./js/vendors/bootstrap.min.js"></script>
+  <script src="./js/vendors/lodash.min.js"></script>
+  <script src="./js/vendors/moment.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

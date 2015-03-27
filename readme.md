@@ -17,8 +17,13 @@ The following elements will be evaluated :
 The build tool should provide the following tasks 
 
 - HTML minification
-- CSS pre-processing, post-processing, concatenation  and minification
+- CSS pre-processing, post-processing, concatenation and minification
 - JS concatenation and minification
 - Image minification
-- Javascript testing
+- Javascript linting and testing
 - Development server, with livereload
+
+# Photos
+
+- [Cole Patrick](https://unsplash.com/photos/hpCHLFknc2s/) via
+  [finda.photo](http://finda.photo/image/8716)
